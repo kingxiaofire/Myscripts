@@ -7,6 +7,6 @@
 
 ##使用
 1. Andrid 设备 USB 连接，开启 USB 调试模式，部分机型需要开启允许模拟点击；
-2. 运行`python AutoVideo.py`；
+2. 运行`python main.py`；
 
 还想薅万恶的资本主义的羊毛？！！结果自己成了羊～
