@@ -1,3 +1,4 @@
+#run serverchan with py3
 # coding=utf-8
 import requests
 key = "xxxxxxxxxxx9871955ed58be15e302a61a373fxxxxxxxxxxx # your-key
