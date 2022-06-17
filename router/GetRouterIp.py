@@ -1,4 +1,4 @@
-#GetRouterIp on 
+#GetRouterIp on TL-WVR1200G
 
 import requests
 import json
