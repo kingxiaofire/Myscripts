@@ -67,7 +67,7 @@ def get_ip(password):
 
 if __name__ == "__main__":
 
-    newip = get_ip("your password")
+    newip = get_ip("your router password")
     #print(newip)
 
     svc = pyserver.ServerChan('your serverchan key')
