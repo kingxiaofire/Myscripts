@@ -1,8 +1,8 @@
 前提：树莓派2B+一个，笔记本电脑（装的manjaro系统），读卡器，网线（或者外置的无线网卡），HDMI线（或不用），键鼠（或不用）
 1.在树莓派官网（www.raspberrypi.org)下载系统，用读卡器写好镜像（好在manjaro上自带的imagewrite可以写镜像）
-2.在系统ROOT分区中新建一个名为“SSH"的文件 /×因为下的这个版本的系统默认ssh是关闭的，尽管通过”service ssh start“命令可以开启，但是关机后又关闭了，可以添加到启动项，可是我没有成功×/
-3.进入路由器管理页面，找到Pi的ip /×我用的是小米路由器3C，并没有找到IP，可以用扫描ip的工具的，但是电脑系统不支持，所以NDMI线就派上用场了×/
-4.开机，有Putty以ssh、方式连接树莓派 /×好在manjaro上有putty，打开后输入树莓派的ip就可以连接了，默认登录名为pi 密码 raspberry，输入passwd更换密码×/
+2.在系统ROOT分区中新建一个名为“SSH"的文件 /×因为下的这个版本的系统默认ssh是关闭的，尽管通过”service ssh start“命令可以开启，但是关机后又关闭了，可以添加到启动项，可是我没有成功
+3.进入路由器管理页面，找到Pi的ip /×我用的是小米路由器3C，并没有找到IP，可以用扫描ip的工具的，但是电脑系统不支持，所以NDMI线就派上用场了
+4.开机，有Putty以ssh、方式连接树莓派 /×好在manjaro上有putty，打开后输入树莓派的ip就可以连接了，默认登录名为pi 密码 raspberry，输入passwd更换密码
 5.换源： sudo nano /etc/apt/sources.list 我这里采用的是中科大的源，感觉良好
 deb http://mirrors.ustc.edu.cn/raspbian/raspbian/ jessie main non-free contrib
 deb-src http://mirrors.ustc.edu.cn/raspbian/raspbian/ jessie main non-free contrib
